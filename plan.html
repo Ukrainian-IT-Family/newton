@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>New site</title>
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="app">
+
+        <header class="header" id="header">
+            <div class="wrap">
+                <div class="header__wrap">
+                    <div class="header__wrap__left">
+                        <a href="main.html" class="logo">
+                            <svg width="250" height="60">
+                                <use xlink:href="./img/sprite.svg#logo"></use>
+                            </svg>
+                        </a>
+                        <div class="header__text">
+                            Умный жилой комплекс
+                            рядом с набережной
+                            <span>+ 380 98 77 77 777</span>
+                        </div>
+                    </div>
+                    <div class="header__wrap__right">
+                        <button type="button" class="header__phone">
+                            обратный звонок
+                        </button>
+                        <a href="tel:+74957457575" class="header__phone__icon">
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#phone"></use>
+                            </svg>
+                        </a>
+                        <button type="button" class="header__flat" id="header__flat">
+                            выбор квартир
+                            <span class="header__flat__arr">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#v"></use>
+                                </svg>
+                            </span>
+
+                            <ul class="header__flat__list">
+                                <li>
+                                    <a href="plan.html">
+                                        <img src="./img/index/flat-img1.png">
+                                        Выбрать на ген.плане
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="param-flat.html">
+                                        <img src="./img/index/flat-img2.png">
+                                        Выбрать по параметрам
+                                    </a>
+                                </li>
+                            </ul>
+                        </button>
+                        <div class="header-menu">
+                            <button type="button" class="burger" id="burger">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#burger"></use>
+                                </svg>
+                                <svg class="icon close">
+                                    <use xlink:href="./img/sprite.svg#close"></use>
+                                </svg>
+                            </button>
+
+                            <nav class="header__nav" id="header__nav">
+                                <ul>
+                                    <li class="active">
+                                        <a href="about.html">О проекте</a>
+                                    </li>
+                                    <li>
+                                        <a href="location.html">Расположение</a>
+                                    </li>
+                                    <li>
+                                        <a href="infra.html">Инфраструктура</a>
+                                    </li>
+                                    <li>
+                                        <a href="blago.html">Благоустройство</a>
+                                    </li>
+                                    <li>
+                                        <a href="apart.html">Апартаменты</a>
+                                    </li>
+                                    <li>
+                                        <a href="hod.html">Ход строительства</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">Галерея</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-builder.html">О застройщике</a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="sec sec-apart sec-shadow" style="background-image: url('./img/index/sec-apart.jpg');">
+                <div class="wrap">
+                    <div class="sec-apart__wrap">
+                        <div class="title">Выбор апартаментов на ген. плане</div>
+                        <div class="sec-apart__row">
+                            <div class="sec-apart__row__left">
+                                Выберите тип квартиры:
+                            </div>
+                            <div class="sec-apart__row__list">
+                                <label class="flat-checkbox">
+                                    <input type="checkbox" checked>
+                                    <span>CT</span>
+                                </label>
+                                <label class="flat-checkbox">
+                                    <input type="checkbox">
+                                    <span>1</span>
+                                </label>
+                                <label class="flat-checkbox">
+                                    <input type="checkbox">
+                                    <span>2</span>
+                                </label>
+                                <label class="flat-checkbox">
+                                    <input type="checkbox">
+                                    <span>3</span>
+                                </label>
+                                <label class="flat-checkbox">
+                                    <input type="checkbox">
+                                    <span>4</span>
+                                </label>
+                            </div>
+                            <div class="apart__next">
+                                <a href="" class="btn btn-green">Выбрать</a>
+                            </div>
+                        </div>
+                        <!-- <nav class="apart__nav">
+            <ul>
+              <li class="active">
+                <a href="">
+                  выбор апартаментов на ген.плане
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  выбор по этажу
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  планировка квартиры
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  выбор по параметрам
+                </a>
+              </li>
+            </ul>
+          </nav> -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="wrap">
+                <div class="footer__wrap">
+
+                    <div class="footer__top">
+                        <div class="footer__top__left">
+                            <div class="footer__office">
+                                <span>офис продаж</span>
+                                Москва. Нагатинский проезд, 10 с1
+                            </div>
+                            <nav class="footer__nav">
+                                <div class="footer__nav__col">
+                                    <div class="footer__nav__name">
+                                        О проекте
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="">Расположение</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Инфратруктура</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Благосутройство</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Апартаменты</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="footer__nav__col">
+                                    <div class="footer__nav__name">
+                                        Информация
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href=""> О застройщике</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Ход строительства</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Условия покупки</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Документация</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="footer__top__right">
+                            <div class="footer__text">
+                                + 380 98 77 777 777
+                            </div>
+                            <div class="footer__text">
+                                newton-apartment.com
+                            </div>
+                            <div class="footer__text">
+                                c 9.00 до 21.00 ежедневно
+                            </div>
+                            <a href="" class="footer__policy">Политика обработки персональных данных</a>
+                            <ul class="footer__soc">
+                                <li>
+                                    <a href="">
+                                        <img src="./img/soc/1.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="./img/soc/2.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="./img/soc/3.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="./img/soc/4.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__bot">
+                        <div class="footer__bot__text">Девелопер</div>
+                        <div class="footer__bot__row">
+                            <img src="./img/index/develop-logo.svg">
+                            <div class="footer__bot__text2">
+                                Не является публичной офертой.
+                                Визуализации и планировки обьекта являются ориентировочными
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="back-modal" id="back-modal">
+            <form class="back-modal__wrap" id="back-modal-form">
+                <button class="calc-modal__close back-modal__close" type="button">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+                <div class="back-modal__row">
+                    <input type="text" placeholder="Имя" required>
+                </div>
+                <div class="back-modal__row">
+                    <input type="text" placeholder="E-mail">
+                </div>
+                <div class="back-modal__row">
+                    <input type="text" placeholder="Телефон" required>
+                </div>
+                <div class="back-modal__row">
+                    <textarea placeholder="Что Вас заинтересовало?"></textarea>
+                </div>
+                <div class="back-modal__row">
+                    <label class="checkbox">
+                        <input type="checkbox" checked="">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="9" height="7" viewBox="0 0 9 7" fill="none">
+                                <line x1="8.38977" y1="0.344447" x2="2.67467" y2="6.35793" stroke="#568F27"></line>
+                                <line x1="0.379913" y1="2.98646" x2="2.69235" y2="5.68909" stroke="#568F27"></line>
+                            </svg>
+                        </span>
+                        Я согласен с условиями политики конфиденциальности
+                    </label>
+                </div>
+
+                <div class="back-modal__btn">
+                    <button type="submit" class="btn btn-green ">
+                        отправить
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="back-modal" id="back-modal-senk">
+            <div class="back-modal__wrap">
+                <button class="calc-modal__close back-modal__close" type="button">
+                    <svg>
+                        <use xlink:href="./img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+                <div class="back-modal__title">Спасибо!<br> мы свяжемся с Вами</div>
+                <div class="back-modal__btn">
+                    <button type="button" id="back-modal__close" class="btn btn-green ">
+                        Закрыть
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
